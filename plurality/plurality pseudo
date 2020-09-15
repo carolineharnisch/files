@@ -1,0 +1,12 @@
+bool vote(string name)
+1. Look for candadite name.
+    1a. If candidate found, increment vote total by 1, return true.
+    1b. If candidate not found, return false.
+- Iterate through array of candidates until vote(string name) is equal to string in array.
+- Increment vote of string in array 
+
+void print_winner(void)
+1. Sort candidates.votes.
+2. Print out name of candidate(s) with most number of votes.
+    2a. Print out the n-1th element (most votes).
+    2b. If n-1 th element == n-2, n-3 etc. th element, then print both.
